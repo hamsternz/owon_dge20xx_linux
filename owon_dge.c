@@ -253,7 +253,7 @@ int main(int argc, char *argv[]) {
     printf(".. Turn channels off\n");
     channel_set_state(devHandle, 1, 0);
     channel_set_state(devHandle, 2, 0);
-    printf(".. Configuure both channels\n");
+    printf(".. Configure both channels\n");
     channel_setup(devHandle, 1, "SINE", 500000.0, 1.000, 0.000);
     channel_setup(devHandle, 2, "SQUARE", 500000.0, 1.000, 0.000);
     printf(".. Turn both channels on\n");
